@@ -51,7 +51,7 @@ public class AppCalculadora extends Application {
             int num2 = Integer.parseInt(numero2.getText());
             int res = num1 + num2;
 
-            resultado.setText(String.valueOf(res));
+            resultado.setText("Resultado de la suma: " +String.valueOf(res));
 
         });
 
@@ -61,7 +61,7 @@ public class AppCalculadora extends Application {
             int num2 = Integer.parseInt(numero2.getText());
             int res = num1 - num2;
 
-            resultado.setText(String.valueOf(res));
+            resultado.setText("Resultado de la resta: " + String.valueOf(res));
 
         });
     }
