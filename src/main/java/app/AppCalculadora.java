@@ -29,7 +29,7 @@ public class AppCalculadora extends Application {
 
         Scene escena = new Scene(contenedor, 300, 250);
 
-        stage.setTitle("Mini-Calculadora");
+        stage.setTitle("Calculadora de operaciones");
         stage.setScene(escena);
         stage.show();
 
